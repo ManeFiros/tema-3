@@ -3,6 +3,7 @@ import PilasConvencionales from './Pilas';
 import BateriasLitio from './Baterias';
 import Hidrogeno from './Hidrogeno';
 import Likes from './Likes';
+import Bitcoin from './Bitcoin';
 
 class Articulo extends Component{
     render() {
@@ -12,6 +13,8 @@ class Articulo extends Component{
           <BateriasLitio />
           <Hidrogeno />
           <Likes />
+          <Bitcoin />
+          <br/>
         </div>
       )
     }
